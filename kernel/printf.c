@@ -18,3 +18,9 @@ void print_string(const char *s)
         putchar(*s++);
     }
 }
+
+void printf(const char *fmt)
+{
+    print_string(fmt);
+}
+
